@@ -1,0 +1,17 @@
+{
+    "name": "miguel/portfolio",
+    "authors": [
+        {
+            "name": "Miguel Angel",
+            "email": "m.zapes@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.19",
+        "slim/slim": "^3.3",
+        "slim/php-view": "^2.1",
+        "slim/twig-view": "^2.1",
+        "swiftmailer/swiftmailer": "^5.4",
+        "slim/flash": "^0.1.0"
+    }
+}

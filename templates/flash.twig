@@ -1,0 +1,9 @@
+{% if flash.getMessages() is not empty %}
+    {% for key, msg in flash.getMessages() %}
+        <div id="feedback" class="{{ key }}">
+            <a class="dismiss">Dismiss</a>
+            <h3>{{ key }}</h3>
+            <p>{{ msg[0] }}</p>
+        </div>
+    {% endfor %}
+{% endif %}
